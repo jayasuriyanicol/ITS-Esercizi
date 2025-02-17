@@ -6,10 +6,10 @@
     Sottrarre x dal prodotto tra x e y e mostrarne il risultato.'''
 
 # Definizione di un numero in virgola mobile, dichiarianmo il valore di x
-x:int = input(f"Benvenuto, inserisci il valore di x: ")
+x= float(input(f"Benvenuto, inserisci il valore di x: "))
 
 # Calcolianmo il reciproco valore di y tramite la asegunete formula:
-y:int = 1/x
+y= 1/x
 
 # Visualizzazione dei valori
 print(f"Il valore di x è il seguente: {x} ")
